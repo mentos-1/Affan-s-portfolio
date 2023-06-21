@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color:rgb(6, 6, 37);
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(4, 4, 60);
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+    color: rgb(229, 179, 179);
+  
+}
+main hr{
+    border: 0;
+    background: blueviolet;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 1.6rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 105px 0;
+    align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+
+}
+.leftsection{
+    
+    width: 34px;
+    font-size: 2.6rem ;
+
+}
+.leftsection .button{
+    padding: 30px;
+}
+.leftsection .btn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid wheat;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.gray{
+    color: gray;
+}
+
+
+.rightsection img{
+    width: 100%;
+    margin: 30px 0;     
+ }
+.purple{
+    color: blueviolet;
+} 
+#element{
+    color: rgb(154, 69, 234);
+
+}
+.secondsection{
+    margin: auto;
+   max-width: 80vw; 
+   height: 80vh;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.vertical{
+    height: 93px;
+    background-color: white;
+    width: 1px;
+    margin: 0 100px;
+
+}
+
+.verticle-title{
+    position: relative;
+    top: 50px;
+    width: 150px;
+
+}
+footer{
+    background-color: rgb(36, 27, 48);
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 233px;
+}
+footer .rights{
+    text-align: center;
+    padding: 12px 0;
+    color: gray;
+}
+

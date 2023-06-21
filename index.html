@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Affan's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Affan</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn" onclick="document.location='Resume.pdf'"  >Download Resume</button>
+                    <button class="btn" onclick="document.location='https://github.com/mentos-1'"  >Visit Github</button>
+                </div>
+            </div>
+
+
+            <div class="rightsection">
+                <img src="pgp.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I have done so far</span>
+            <h1>SKILLS</h1>
+            <div class="box">
+                <div class="vertical">
+
+                    <div class="vertical-title">
+                        FrontendDevloper
+                        HTML
+                        CSS
+                        JS
+                        Bootstrap
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        c(basic)
+                        DBMS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Machine Learning
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>AFFAN Developer portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="forth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights">
+            All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <span id="element"></span>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</htm
